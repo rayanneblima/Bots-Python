@@ -1,8 +1,8 @@
-# Bot para curtir fotos de uma tag do Instagram
+# Bot para baixar os materiais do SIGAA e, assim, contar presença no EAD XXXD
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-import time, re
+import time
 
 class sigaaBot:
     def __init__(self, username, password):
