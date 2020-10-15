@@ -7,7 +7,7 @@ class instagramBot2:
     def __init__(self, username, password):
         self.username = username
         self.password = password
-        self.driver = webdriver.Chrome(executable_path=r'C:/Users/rayan/Desktop/Cursos Quarentena/Python/Bot de Seguidores pro Instagram  - Canal Dev Aprender/chromedriver.exe')
+        self.driver = webdriver.Chrome(executable_path=r'C:/Users/Rayanne/Desktop/Bots-Python/chromedriver.exe')
         
     def login(self):
         driver = self.driver
