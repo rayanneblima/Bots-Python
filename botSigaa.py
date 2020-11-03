@@ -64,7 +64,7 @@ class sigaaBot:
         time.sleep(5)
 
 
-testBot = sigaaBot('','') # TODO: inserir username e senha
+testBot = sigaaBot('','')
 testBot.login()
 
 # TODO: criar executável
